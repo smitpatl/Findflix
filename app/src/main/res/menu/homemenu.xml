@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_personal" android:checkableBehavior="none">
+        <item android:id = "@+id/menu_watchlist"
+            android:title="Watchlist"
+            android:onClick="doWatchlist"/>
+        <item android:id="@+id/menu_likes"
+            android:title="Likes"
+            android:onClick="doLike"/>
+    </group>
+    <group android:id="@+id/group_about" android:checkableBehavior="none">
+        <item android:id="@+id/menu_contact"
+            android:title="Contact"
+            android:onClick="doContact"/>
+        <item android:id="@+id/menu_about"
+            android:title="About"
+            android:onClick="doAbout"/>
+    </group>
+</menu>

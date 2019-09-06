@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+    <style name="PersonalTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+
+
+    <!--grid layout text styles-->
+    <style name="left_column_bold" parent="TextAppearance.AppCompat.Subhead">
+        <item name="layout_gravity">right</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="right_column_normal" parent="TextAppearance.AppCompat.Subhead">
+        <item name="layout_gravity">fill_horizontal</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+
+</resources>
